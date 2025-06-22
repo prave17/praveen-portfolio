@@ -299,7 +299,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.credly.com/badges/b08cbe52-4c6e-4d07-a278-09940f91e43f" // Replace with actual if available
+          url: "https://www.credly.com/badges/dee73b32-8665-460d-8585-b19a0b92ce96/linked_in" // Replace with actual if available
         }
       ]
     },
@@ -312,7 +312,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Award Announcement",
-          url: "" // Add if available
+          url: "https://drive.google.com/file/d/1X6gdZZ-RIYLxTlEGDU9O--hniGml4SE9/view"
         }
       ]
     }
