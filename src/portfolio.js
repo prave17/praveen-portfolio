@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Praveen Kumar",
+  title: "Hi all, I'm Praveen",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "✨ A passionate Full Stack Developer 🚀 with 7+ years of experience in building scalable web applications using Java, Spring Boot, Angular, and JavaScript."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rWfUpVw-EVh5A8TU0_QTV0YNRTsTFAhG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/prave17",
+  linkedin: "https://www.linkedin.com/in/praveen-kumar-b3887a159/",
+  email: "e.praveenkumar17@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -55,9 +54,6 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,55 +61,55 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java" // unofficially used; may need custom icon
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-leaf" // not official, but you can replace with icon if using SVG
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js" // fallback, TypeScript icon not in FA; you can add SVG
+    },
+    {
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Oracle DB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fas fa-tools" // symbolic
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -126,80 +122,123 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "College of Engineering, Guindy, Chennai",
+      logo: require("./assets/images/cegLogo.png"), // Add your logo at this path
+      subHeader: "Master of Computer Applications",
+      duration: "2015 - 2018",
+      desc: "Completed post-graduate program with a CGPA of 7.10/10.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specialized in software development and system design"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Guru Nanak College, Velachery, Chennai",
+      logo: require("./assets/images/gncLogo.png"), // Add your logo at this path
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2012 - 2015",
+      desc: "Graduated with a CGPA of 7.0/10.",
+      descBullets: [
+        "Focused on programming fundamentals and data structures"
+      ]
+    },
+    {
+      schoolName: "Loyola Matriculation Higher Secondary School, Chennai",
+      logo: require("./assets/images/loyolaLogo.png"), // Add your logo at this path
+      subHeader: "Higher Secondary School",
+      duration: "2011 - 2012",
+      desc: "Completed HSC with a CGPA of 7.10/10.",
+      descBullets: [
+        "Studied Mathematics, Physics, and Computer Science stream"
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (Angular, HTML5, CSS3, TypeScript)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Backend (Spring Boot, Spring Security, Spring Batch)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Programming (Java, JavaScript)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Cloud & DevOps (AWS, Jenkins, Docker)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Databases (Oracle DB, PostgreSQL, Gemfire)",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section
 };
+
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Full Stack Developer",
+      company: "NielsenIQ",
+      companylogo: require("./assets/images/nielseniqLogo.png"),
+      date: "July 2024 – Present",
+      desc: "Working as a Senior Full Stack Developer contributing to the design and development of web-based solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leading front-end development using Angular and TypeScript",
+        "Integrating backend services built with Spring Boot",
+        "Collaborating across hybrid teams in a Test & Learn environment"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer",
+      company: "Accenture",
+      companylogo: require("./assets/images/accentureLogo.png"),
+      date: "March 2022 – July 2024",
+      desc: "Involved in full stack development and modernization of enterprise applications.",
+      descBullets: [
+        "Worked extensively on Angular and Gemfire integration",
+        "Implemented scalable APIs using Spring Boot",
+        "Contributed to DevOps workflows and cloud deployments"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Associate Software Engineer",
+      company: "Flatirons Solutions",
+      companylogo: require("./assets/images/flatironsLogo.png"),
+      date: "May 2019 – March 2022",
+      desc: "Worked on digital publishing platforms and content management systems.",
+      descBullets: [
+        "Developed modules using AngularJS and Java",
+        "Maintained legacy systems and migrated them to modern frameworks"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Sysbiz Technologies Pvt. Ltd.",
+      companylogo: require("./assets/images/sysbizLogo.png"),
+      date: "June 2018 – May 2019",
+      desc: "Worked on Java-based enterprise applications.",
+      descBullets: [
+        "Developed UI using Vaadin framework",
+        "Implemented business logic with Spring Framework"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -239,7 +278,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,54 +287,32 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Developer – Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Earned the AWS Certified Developer – Associate certification in December 2023, validating cloud proficiency and application development on AWS.",
+      image: require("./assets/images/awsLogo.png"),
+      imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: "https://www.credly.com/badges/b08cbe52-4c6e-4d07-a278-09940f91e43f" // Replace with actual if available
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "ACE Award - Accenture",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Received the ACE (Accenture Celebrates Excellence) Award in December 2022 for outstanding performance and contributions to project delivery.",
+      image: require("./assets/images/accentureAward.png"),
+      imageAlt: "Accenture Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Award Announcement",
+          url: "" // Add if available
         }
       ]
     }
@@ -324,7 +341,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +373,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,20 +387,20 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
+  number: "+91 7845418546",
+  email_address: "e.praveenkumar17@gmail.com"
 };
+
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
